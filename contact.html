@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <title>Wae's Commission Page</title>
+</head>
+<img src="img/logo-light.png" style="width:50px; height:50px; margin:20px;">
+<body>
+    <div id="container">
+        <div id="header">
+                <ul id="mainmenu">
+                    <li><a href="#">MENU</a>
+                        <ul class="submenu">
+                            <li class="nav-item"><a class="item-anchor" href="index.html">HOME</a></li>
+                            <li class="nav-item"><a class="item-anchor" href="profile.html">PROFILE</a></li>
+                            <li class="nav-item"><a class="item-anchor" href="artwork.html">ARTWORK</a></li>
+                            <li class="nav-item"><a class="item-anchor" href="contact.html">CONTACT</a></li>
+                            <style type="text/css">
+                                a:link { color: #ff4081; text-decoration: none;}
+                                a:visited { color: #ff4081; text-decoration: none;}
+                                a:hover { color: white; text-decoration: none;}
+                            </style>
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+    </div>
+
+            <div class="section3">
+                <a href="https://www.facebook.com/Wae1014/"target="_blank"> 페이스북 (Facebook) </a></li>
+                <br>
+                <a href="https://www.artstation.com/wae"target="_blank"> 아트스테이션 (Artstation) </a></li>
+                <br>
+                <a href="https://twitter.com/ygl1014"target="_blank"> 트위터 (Twitter) </a></li>
+            </div>
+
+        <div id="main">
+            <div class="image-container3">
+                <img src="img/media.jpg">
+            </div>
+        </div>
+
+        <div id="footer">
+        Copyrightⓒ by Wae All Pictures Cannot be coied without permission
+        </div>
+
+    <script>
+        $(document).ready(function(){
+        $("#mainmenu>li").on('mouseover', function(){
+            $(this).children(".submenu").stop().fadeIn(300);
+        });
+        $("#mainmenu>li").on('mouseleave', function(){
+            $(this).children(".submenu").stop().fadeOut(300);
+        });
+    });
+</script>
+</body>
+    
+</html>

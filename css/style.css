@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+@import url('https://fonts.googleapis.com/css?family=Teko:700');
+
+body {
+    text-align:justify;
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(9, 8, 11);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgb(9, 8, 11);
+}
+
+#header {
+    max-width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(9, 8, 11);
+}
+
+.section {
+    position: justify;
+    text-align:center;
+    float: center;
+    font-size:30px;
+    font-weight: bold;
+    font-style: unset;
+    margin: 0px auto;
+    margin-top: 0px auto;
+    margin-bottom: 0px;
+}
+
+.section2 {
+    text-align:justify;
+    padding: 240px 500px 50px 500px;
+    float: center;
+    font-size: 15pt;
+    margin: 0px auto;
+    margin-top: 0px auto;
+    margin-bottom: 100px;
+}
+
+.section3 {
+    position: absolute;
+    padding-top: 480px;
+    padding-left: 150px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: unset;
+    color: white;
+}
+
+.section3 {
+    position: absolute;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: unset;
+    color: white;
+}
+
+#mainmenu {
+    position: relative;
+    display: flex;
+    height: 30px;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0 auto;
+    align-items: left;
+    justify-content: left;
+    background-color: rgb(9, 8, 11);
+}
+
+#mainmenu > li {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff4081;
+    background-color: rgb(9, 8, 11);
+}
+
+#mainmenu > li > a:link, #mainmenu > li > a:visited { color: #ff4081;; text-decoration: none;
+    position: relative;
+    color:#ff4081;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+#mainmenu > li > a:hover {
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.submenu {
+    display: box;
+    position: absolute;
+    float: right;
+    justify-content: flex-end;
+    width: 0px;
+    margin-top: 15px;
+    margin-right: 5px;
+    background-color: rgb(9, 8, 11);
+    z-index: 10000;
+}
+
+.submenu > li {
+    position: relative;
+    margin: 0px;
+    background-color: rgb(9, 8, 11);
+}
+
+#section {
+    padding : 340px;
+    position: absolute;
+    font-size: 30px;
+    text-align: justify;
+    color: white;
+    width: 860px;
+    height: 120px;
+    background-color: #18171e;
+}
+
+#carousel {
+    position: relative;
+    float: right;
+    width: 960px;
+    max-height: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+#carousel img {
+    max-width: 100%;
+    display: block;
+}
+
+.slide-set {
+    position: relative;
+    width: 4800px; 
+    max-height: 800px;
+    overflow: hidden;
+}
+.slide-set .slide {
+    float: left;
+    width: 960px; 
+    max-height: 800px;
+}
+
+.swiper-container {
+    display: block;
+    position: relative;
+    width: 1600px;
+    height: 500px;
+}
+
+#footer {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.image-container {
+    position: absolute;
+    opacity: 20%;
+}
+
+.image-container2 {
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.image-container3 {
+    position: static;
+    opacity: 100%;
+}
